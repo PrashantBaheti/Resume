@@ -1,17 +1,31 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <style>
+        body{
+            background-color: #EAF6F6;
+        }
+    </style> -->
 </head>
+
 <body>
     <h1>Contact Details</h1>
-    <p> Contact : <strong>+91-8667552466</strong>  Emial: <strong>Prashantsid48@gmail.com</strong></p>
-    <label for="input"><a href="input.html"> Input</a></label>
-    <hr size="2" noshade>
+    <table cellspacing=10>
+        <tr>
+            <td>Contact : <strong>+91-8667552466</strong> </td>
+            <td>Emial: <strong>Prashantsid48@gmail.com</strong></td>
+        </tr>
+    </table>
+
+    <!-- to test different inputs <label for="input"><a href="input.html"> Input</a></label> -->
+    <br>
+    <hr>
     <br>
     <form action="mailto:prashant.baheti480gmail.com" method="post" enctype="text/plain">
         <label for="name">Your Name:</label>
@@ -20,16 +34,15 @@
         <label for="email">Your Email:</label>
         <input type="email" name="email" id="email">
         <br>
-        <label for="email">Message:</label> <br>
+        <label for="email">Enter you message:</label> <br>
         <textarea name="message" rows="5" cols="30"></textarea>
         <br>
         <input type="submit" name="" id="">
 
     </form>
-    
+
 
 
 </body>
-</html>
 
-   
+</html>
